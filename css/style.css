@@ -14,6 +14,7 @@ body {
     margin: 150px auto;
     background-color: white;    
     position: relative;
+    transition: 1s ease-out; 
 }
 
 #border {
@@ -22,4 +23,21 @@ body {
     height: 350px;
     position: absolute;
     margin: 25px 25px;
+}
+
+.clicked {
+    transform: rotateX(720deg);
+}
+
+#info {
+    position: absolute;
+    top: 320px;
+    font-size: 70%;
+    margin-left: 10px;
+}
+
+#source {
+    margin: 50px;
+    background-color: red;
+    font-size: 150%;
 }
