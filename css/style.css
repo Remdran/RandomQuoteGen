@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #F0F0F0;
+}
+
+#card { 
+    width: 800px;
+    height: 400px;
+    margin: 150px auto;
+    background-color: white;    
+    position: relative;
+}
+
+#border {
+    border: 4px solid gold;
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    margin: 25px 25px;
+}
