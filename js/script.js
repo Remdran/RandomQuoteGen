@@ -16,10 +16,10 @@ $(document).ready(function () {
                 data: {},
                 dataType: 'json',
                 success: function (data) {
-                    console.log(data);
+                   //console.log(data);
                     $( '#quote' ).html(data.quote);
                     $( '#source' ).html(data.author);
-                    console.log(data.author);
+                    //console.log(data.author);
                 },
                 error: function (err) { alert(err); },
                 beforeSend: function (xhr) {
